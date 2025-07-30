@@ -2,134 +2,65 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>My Certificates | Nikhil</title>
-  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />  <!-- Your main portfolio CSS -->
+  <link rel="stylesheet" href="assets/css/achivment.css" /> <!-- Certificate page CSS -->
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
-  <style>
-    body {
-      background-color: #f7f8fc;
-      font-family: 'Poppins', sans-serif;
-    }
-    
-    .cert-card img {
-      transition: transform 0.4s ease;
-    }
-    .cert-card:hover img {
-      transform: scale(1.05);
-    }
-
-    .container {
-      padding: 60px 20px;
-      max-width: 1000px;
-      margin: auto;
-    }
-    .cert-header {
-      text-align: center;
-      margin-bottom: 40px;
-    }
-    .cert-header h1 {
-      font-size: 2.5rem;
-      color: #222;
-    }
-    .cert-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 20px;
-    }
-    .cert-card {
-      background: white;
-      border-radius: 10px;
-      box-shadow: 0 6px 15px rgba(128, 95, 95, 0.1);
-      transition: 0.3s ease;
-      overflow: hidden;
-    }
-    .cert-card:hover {
-      
-      transform: translateY(-5px);
-    }
-    .cert-card img {
-      width: 100%;
-      height: auto;
-      display: block;
-    }
-    .back-btn {
-      font-weight: 500;
-    padding: 12px 20px;
-    background: #efefef;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: .4s;
-      display: inline-block;
-      margin: 20px 0;
-      text-decoration: none;
-      color: rgb(8, 8, 8);
-      transition: background 0.3s ease;
-    }
-    .back-btn:hover {
-      background: var(--second-color);
-    color: var(--color-white);
-      background: #4b98ef;
-    }
-  </style>
 </head>
 <body>
   <div class="container">
     <div class="cert-header">
-      <h1>My Achievement</h1>
+      <h2>My Achievements</h2>
       <a href="index.html" class="back-btn"><i class="uil uil-arrow-left"></i> Back to Portfolio</a>
     </div>
     <div class="cert-grid">
       <div class="cert-card">
-        <img src="assets/1.jpg" alt="Certificate 1">
+        <img src="assets/1.jpg" alt="Certificate 1" />
       </div>
       <div class="cert-card">
-        <img src="assets/2.png" alt="Certificate 2">
+        <img src="assets/2.png" alt="Certificate 2" />
       </div>
       <div class="cert-card">
-        <img src="assets/3.png" alt="Certificate 1">
+        <img src="assets/3.png" alt="Certificate 3" />
       </div>
       <div class="cert-card">
-        <img src="assets/4.png" alt="Certificate 1">
+        <img src="assets/4.png" alt="Certificate 4" />
       </div>
       <div class="cert-card">
-        <img src="assets/5.jpg" alt="Certificate 1">
+        <img src="assets/5.jpg" alt="Certificate 5" />
       </div>
       <div class="cert-card">
-        <img src="assets/6.png" alt="Certificate 1">
+        <img src="assets/6.png" alt="Certificate 6" />
       </div>
       <div class="cert-card">
-        <img src="assets/7.png" alt="Certificate 1">
+        <img src="assets/7.png" alt="Certificate 7" />
       </div>
       <div class="cert-card">
-        <img src="assets/8.png" alt="Certificate 1">
+        <img src="assets/8.png" alt="Certificate 8" />
       </div>
       <div class="cert-card">
-        <img src="assets/9.png" alt="Certificate 1">
+        <img src="assets/9.png" alt="Certificate 9" />
       </div>
       <div class="cert-card">
-        <img src="assets/10.png" alt="Certificate 1">
+        <img src="assets/10.png" alt="Certificate 10" />
       </div>
       <div class="cert-card">
-        <img src="assets/11.png" alt="Certificate 1">
+        <img src="assets/11.png" alt="Certificate 11" />
       </div>
-
-      <!-- Add more cards here -->
+      <!-- Add more certificate cards if needed -->
     </div>
   </div>
+
   <script src="https://unpkg.com/scrollreveal"></script>
-<script src="https://unpkg.com/scrollreveal"></script>
-<script>
-  ScrollReveal().reveal('.cert-card, .achievement-card', {
-    distance: '30px',
-    origin: 'bottom',
-    opacity: 0,
-    duration: 1000,
-    interval: 200
-  });
-</script>
-
+  <script>
+    ScrollReveal().reveal('.cert-card, .achievement-card', {
+      distance: '30px',
+      origin: 'bottom',
+      opacity: 0,
+      duration: 1000,
+      interval: 200
+    });
+  </script>
 </body>
-
 </html>
